@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Buen Hogar - Inmobiliaria</title>
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: rgb(247, 242, 242);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      height: 50px;
+      vertical-align: middle;
+      margin-right: 15px;
+    }
+
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: rgb(238, 238, 243);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('img/fondo-inmobiliaria.jpg');
+      background-size: cover;
+      background-position: center;
+      color: rgb(194, 111, 111);
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .busqueda {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .busqueda select, .busqueda input {
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+    }
+
+    .busqueda button {
+      padding: 10px 20px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 50%;
+      font-size: 24px;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .whatsapp:hover {
+      background: #20b954;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="Logo inmobiliaria">
+    <span><strong>El Buen Hogar</strong> - Tu inmobiliaria en Montería</span>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Inmuebles</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Los mejores inmuebles de Montería</h2>
+    <p>Encuentra tu nuevo hogar con nosotros</p>
+  </section>
+
+  <section class="busqueda">
+    <h3>Busca tu inmueble ideal</h3>
+    <form>
+      <select><option>Transacción</option></select>
+      <select><option>Tipo de inmueble</option></select>
+      <select><option>Ciudad</option></select>
+      <select><option>Barrio</option></select>
+      <input type="text" placeholder="Mínimo $">
+      <input type="text" placeholder="Máximo $">
+      <button>Buscar</button>
+    </form>
+  </section>
+
+  <a class="whatsapp" href="https://wa.me/573012300925_blank">💬</a>
+  
+
+</body>
+</html>

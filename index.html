@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Buen Hogar - Inicio</title>
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eaf0f6;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .boton-info {
+      display: inline-block;
+      margin: 30px 0;
+      padding: 15px 30px;
+      background-color: #3498db;
+      color: white;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .boton-info:hover {
+      background-color: #2980b9;
+    }
+
+    .propiedades {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: left;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-info {
+      padding: 15px;
+    }
+
+    .card-info h3 {
+      margin: 0 0 10px;
+      color: #2c3e50;
+    }
+
+    .card-info p {
+      margin: 5px 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bienvenidos a El Buen Hogar</h1>
+  <p>Encuentra la casa de tus sueños con nosotros.</p>
+
+  <div class="propiedades">
+    <!-- Apartamento -->
+    <div class="card">
+      <img src="img/apartamento.jpg" alt="Apartamento moderno">
+      <div class="card-info">
+        <h3>Apartamento en Montería</h3>
+        <p>Ubicación: Barrio La Castellana</p>
+        <p>Precio: $350.000.000</p>
+      </div>
+    </div>
+
+    <!-- Casa -->
+    <div class="card">
+      <img src="img/casa.jpg" alt="Casa familiar">
+      <div class="card-info">
+        <h3>Casa Familiar</h3>
+        <p>Ubicación: Barrio El Recreo</p>
+        <p>Precio: $480.000.000</p>
+      </div>
+    </div>
+
+    <!-- Finca -->
+    <div class="card">
+      <img src="img/finca.jpg" alt="Finca campestre">
+      <div class="card-info">
+        <h3>Finca Campestre</h3>
+        <p>Ubicación: Vía Planeta Rica</p>
+        <p>Precio: $950.000.000</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="inmobiliaria.html" class="boton-info">Conocer la Inmobiliaria</a>
+
+</body>
+</html>
