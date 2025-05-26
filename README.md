@@ -11,7 +11,7 @@ Este proyecto es una página web para una inmobiliaria, desarrollada como parte 
 
 ## 📹 Video demostración
 
-🔗 [Ver video explicativo](https://enlace-a-tu-video.com)  
+🔗 [Ver video explicativo](https://www.loom.com/share/bba0f00f81d54ff786251fae9038603e?sid=6013ac3d-9add-47e5-aa1c-a1ceff9d02cf)  
 
 
 ---
